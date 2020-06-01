@@ -8,10 +8,8 @@ public class ControladorImpresora {
         return instanciaControlador;
     }
 
-    public String imprimirDocumento(String datos) {
-        System.out.print("Imprimiendo documento: ");
-        System.out.println(datos);
-
-        return "Impresión Exitosa";
+    public boolean imprimirDocumento(String datos) {
+        System.out.println(String.format("---\n[Controlador] Enviando documento para impresión: %s\n---", datos));
+        return true;
     }
 }

@@ -1,6 +1,6 @@
 # Examen I Vanguardia
 
-**_Presentado por: _**
+**Presentado por:**
 Carlos Velásquez - 11641405
 
 ## Compilar y ejecutar
