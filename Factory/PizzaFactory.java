@@ -1,3 +1,5 @@
+package Factory;
+
 public class PizzaFactory {
     public Pizza crearPizza(TipoPizza t) {
         switch (t) {

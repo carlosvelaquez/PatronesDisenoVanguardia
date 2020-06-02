@@ -1,9 +1,13 @@
+package Singleton;
+
+import Constants.*;
+
 public class Singleton {
     public static void run() {
         ControladorImpresora controlador = ControladorImpresora.recuperarInstancia();
 
         System.out.print("[Editor de Texto] Presione ENTER para imprimir el contenido del bufer\n\n");
-        String datos = Examen.sc.nextLine();
+        String datos = Constants.sc.nextLine();
 
         String mensaje = "";
 

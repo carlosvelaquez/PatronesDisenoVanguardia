@@ -1,3 +1,5 @@
+package Singleton;
+
 public class ControladorImpresora {
     private static ControladorImpresora instanciaControlador = new ControladorImpresora();
 

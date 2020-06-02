@@ -8,7 +8,7 @@ Carlos Velásquez - 11641405
 Compilar el programa con
 
 ```
-javac *.java
+javac Examen.java
 ```
 
 y ejecutarlo con
