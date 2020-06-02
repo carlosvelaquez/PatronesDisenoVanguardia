@@ -3,6 +3,7 @@ import Constants.*;
 import Singleton.*;
 import Factory.*;
 import Observer.*;
+import Builder.*;
 
 public class Examen {
     public static void main(String[] args) {
@@ -11,7 +12,7 @@ public class Examen {
         boolean salir = false;
 
         while (!salir) {
-            System.out.println("1) Singleton\n2) Factory\n3) Observer\n7) Salir del programa");
+            System.out.println("1) Singleton\n2) Factory\n3) Observer\n4) Builder\n7) Salir del programa");
             System.out.print("\nIngrese el número del ejercicio a observar: ");
 
             int opcion = Constants.sc.nextInt();
@@ -19,7 +20,7 @@ public class Examen {
 
             switch (opcion) {
                 case 1:
-                    // Singleton.run();
+                    Singleton.run();
                     break;
 
                 case 2:
@@ -28,6 +29,10 @@ public class Examen {
 
                 case 3:
                     Observer.run();
+                    break;
+
+                case 4:
+                    Builder.run();
                     break;
 
                 case 7:
