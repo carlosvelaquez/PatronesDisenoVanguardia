@@ -5,6 +5,7 @@ import Factory.*;
 import Observer.*;
 import Builder.*;
 import Adapter.*;
+import State.*;
 
 public class Examen {
     public static void main(String[] args) {
@@ -13,7 +14,8 @@ public class Examen {
         boolean salir = false;
 
         while (!salir) {
-            System.out.println("1) Singleton\n2) Factory\n3) Observer\n4) Builder\n5) Adapter\n7) Salir del programa");
+            System.out.println(
+                    "1) Singleton\n2) Factory\n3) Observer\n4) Builder\n5) Adapter\n6) State\n7) Salir del programa");
             System.out.print("\nIngrese el número del ejercicio a observar: ");
 
             int opcion = Constants.sc.nextInt();
@@ -38,6 +40,10 @@ public class Examen {
 
                 case 5:
                     Adapter.run();
+                    break;
+
+                case 6:
+                    State.run();
                     break;
 
                 case 7:
