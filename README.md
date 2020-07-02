@@ -1,4 +1,4 @@
-# Examen I Vanguardia
+# Patrones de Diseño
 
 **Presentado por:**
 Carlos Velásquez - 11641405
@@ -8,25 +8,29 @@ Carlos Velásquez - 11641405
 Compilar el programa con
 
 ```
-javac Examen.java
+javac Patrones.java
 ```
 
 y ejecutarlo con
 
 ```
-java Examen
+java Patrones
 ```
 
 ## Especificaciones
 
-En base a la presentación "Patrones de Diseño de Software" en la Semana 4 por cada patrón de diseño en la misma: Singleton, Factory, Observer, Adapter, Builder, State
+En base a la presentación Patrones de Diseño de Software en la Semana 4, programar según el diagrama de la presentación los siguietes Patrones de Diseño:
 
-1. Identifique un caso de uso de la vida real para el patrón de diseño.
+1. Singleton
 
-2. Construya el diagrama de clases que ejemplifique el caso de uso.
+2. Factory
 
-3. En el lenguaje de programación de su predilección programe el caso de uso diagramado en el paso 2.
+3. Observer
 
-Suba su trabajo a una página en Github con commits para cada patrón de diseño.
+4. Builder
 
-Si utiliza Java como lenguaje de programación, procure que sea independiente al IDE dado que se evaluará empleando el compilador nativo.
+En el lenguaje de programación de su elección.
+
+Suba su trabajo a una página de Github.
+
+En el caso de ser Java considere que debe ser independiente al IDE.

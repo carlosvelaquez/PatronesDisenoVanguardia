@@ -4,18 +4,15 @@ import Singleton.*;
 import Factory.*;
 import Observer.*;
 import Builder.*;
-import Adapter.*;
-import State.*;
 
-public class Examen {
+public class Patrones {
     public static void main(String[] args) {
-        System.out.println("Examen I - Carlos Velásquez\n-----");
+        System.out.println("Patrones de Diseño - Carlos Velásquez\n-----");
 
         boolean salir = false;
 
         while (!salir) {
-            System.out.println(
-                    "1) Singleton\n2) Factory\n3) Observer\n4) Builder\n5) Adapter\n6) State\n7) Salir del programa");
+            System.out.println("1) Singleton\n2) Factory\n3) Observer\n4) Builder\n7) Salir del programa");
             System.out.print("\nIngrese el número del ejercicio a observar: ");
 
             int opcion = Constants.sc.nextInt();
@@ -36,14 +33,6 @@ public class Examen {
 
                 case 4:
                     Builder.run();
-                    break;
-
-                case 5:
-                    Adapter.run();
-                    break;
-
-                case 6:
-                    State.run();
                     break;
 
                 case 7:
